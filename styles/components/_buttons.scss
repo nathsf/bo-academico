@@ -1,0 +1,120 @@
+.btn-login {
+    width: 100%!important;
+}
+.btn-send {
+    background: var(--upch-primary);
+    border: 1px solid var(--upch-primary);
+    color: white;
+    width: 205px;
+    height: 38px;
+    border-radius: 10px;
+    font-size: 16px;
+    padding-bottom: 7px;
+	&:hover {
+		color: #ffffff;
+    	background-color: var(--upch-primary-dark);
+    	border: 1px solid var(--upch-primary-dark);
+	}
+}
+form .btn-small{
+	line-height: 0;
+}
+.btn-sm, .btn-secondary, .btn-primary {
+	border-radius: 0.45rem;
+	height: 32px;
+}
+.btn-primary {
+	background: var(--upch-primary)!important;
+    border: 1px solid var(--upch-primary)!important;
+    color: white;
+	
+	&:hover {
+		color: #ffffff;
+    	background-color: var(--upch-primary-dark)!important;
+    	border: 1px solid var(--upch-primary-dark)!important;
+	}
+	&:focus {
+		box-shadow: none!important;
+		outline: 0!important;
+	}
+}
+
+.btn-check:active+.btn-outline-danger, .btn-check:checked+.btn-outline-danger, .btn-outline-danger.active, .btn-outline-danger.dropdown-toggle.show, .btn-outline-danger:active {
+    color: #fff;
+    background-color: var(--upch-primary) !important;
+    border-color: var(--upch-primary) !important;
+}
+
+.btn-name {
+	font-size: 13px;
+}
+.btn-lock {
+	font-size: 14px;
+}
+
+.btn-drop-down {
+	background: #b01333;
+    color: white;
+    border-radius: 50%;
+    line-height: 1;
+    width: 17px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	i {
+		line-height: 0;
+    	font-size: 9px;
+	}
+}
+
+
+.modal-body {
+	.group-custom.btn-group {
+		.btn {
+			color: #7a7a7a;
+			border-color: #f7f7f7!important;
+			background: #f7f7f7;
+		}
+		.btn.active {
+			color: #B01333;
+			background: #FFF1F3;
+			border-color: #FFF1F3!important;
+			span {
+				font-weight: 500!important;
+
+			}
+		}
+	}
+	.config-modo{
+		.btn {
+			color: #7a7a7a;
+			border-color: #f7f7f7!important;
+			background: #f7f7f7;
+		}
+		.btn.active {
+			color: #B01333;
+			background: #FFF1F3;
+			border-color: #FFF1F3!important;
+			font-weight: 500;
+		}
+	}
+}
+.text-xs-config {
+	font-size: 13px;
+}
+.text-md-config {
+	font-size: 15px;
+}
+.text-lg-config {
+	font-size: 17px;
+}
+
+#exampleModalAsignatura.show, #nuevoAutorizacion.show, #editAutorizacion.show, #verAutorizacion.show, #aprobModal.show, #desaprobModal.show, #editarAsign, #asigncurricula, #completagrupo, #incompletagrupo, #grupoParalelo, #carreraModal, #sesionesModal, #eliminarSesion, #registrarSesion{
+	z-index: 1056;
+    background: #00000042;
+	
+}
+h6.dropdown-header {
+	background-color: #f7f7f7!important;
+}

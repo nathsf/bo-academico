@@ -1,0 +1,131 @@
+body {
+    background-color: var(--upch-web-bg);
+    overflow-x: hidden;
+	margin: 0;
+    font-family: var(--font-upch);
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-upch);
+    font-weight: 500;
+}
+
+p, label, a , select, input, span, button, small{
+    font-family: var(--font-upch);
+    font-weight: 300;
+    
+}
+.text-info {
+    color: var(--upch-blue)!important;
+}
+.text-warning {
+    color: var(--upch-web-complementary);
+}
+::selection {
+    background: var(--upch-black)!important;
+    color: white;
+  }
+
+p, label, a , input, span{
+    font-size: 13px;
+}
+small {
+    font-size: 11px;
+}
+:focus {
+    outline: none;
+  }
+  
+  :focus:not(:focus-visible) {
+    outline: none;
+  }
+
+a {
+    color: var(--upch-primary-dark);
+    &:hover { 
+        color: var(--upch-primary-dark);
+    }
+}
+
+.home .container-fluid {
+    padding-right: 0;
+}
+.home .container-fluid .main {
+    height: calc(100vh - 45px);
+    width: 100%;
+    // padding-top: 103px;
+    padding-top: 64px;
+    // padding-bottom: 105px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    // @media (max-width: 844px) {
+    //     height: 100vh;
+    // }
+}
+
+.home .popover .badge-secondary {
+    background: var(--upch-secondary-light);
+    border: 1px solid var(--upch-secondary);
+    color: var(--upch-secondary);
+    font-size: 13px;
+    border-radius: 25px;
+    padding: 0.15rem 1.25rem;
+}
+
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1200px;
+    }
+}
+
+@media(min-width:1600px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1500px;
+    }
+    .modal-xl {
+        max-width: 1500px;
+    }
+}
+
+@media(min-width:1700px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1600px;
+    }
+    .modal-xl {
+        max-width: 1500px;
+    }
+}
+
+.bread-sep {
+    color: grey;
+    font-size: 1rem;
+    position: relative;
+    top: 0px;
+    height: 20px;
+    width: 1px;
+    background: #dfdfdf;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+   
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 3px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(163, 163, 163); 
+    border-radius: 3px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(114, 114, 114); 
+  }

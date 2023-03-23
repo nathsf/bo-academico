@@ -1,0 +1,130 @@
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #231f1f;
+    background-color: #fff;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #b01333;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-tabs .nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: .8rem;
+    font-family: var(--font-upch);
+}
+.btn-opciones.dropdown-toggle{
+    &:after {
+        display: none;
+    }
+}
+.btn-opciones-drop {
+    padding: 3px 0.6rem;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    i {
+        color: #b01333;
+        margin-right: 4px;
+        font-size: .95rem;
+    }
+}
+.btn-opciones {
+    margin-bottom: .6rem;
+    transition: all .2s linear;
+    
+    padding: 3px 0.6rem;
+    margin-right: 10px;
+    background: #f7f7f7;
+    @media (max-width:767px) {
+        
+        span {
+            font-size: 1rem!important;
+        }
+        i{
+            font-size: 1rem!important;
+        }
+    }
+    @media (max-width:1000px) {
+      
+        span {
+            font-size: .9rem!important;
+            width: 100%;
+            max-width: 100%;
+        }
+        i{
+            font-size: .9rem!important;
+        }
+    }
+
+    span {
+        transition: all .2s linear;
+        font-weight: 400;
+    }
+    i {
+        transition: all .2s linear;
+
+        color: var(--upch-primary);
+        opacity: .6;
+        font-weight: 600;
+    }
+
+    &:hover {
+        
+        color: #B01333;
+        background: #FFF1F3;
+        i {
+            opacity: 1;
+            font-weight: 600;
+        }
+        span {
+            font-weight: 400;
+            color: black;
+        }
+    }
+}
+
+.scroll-content-tab {
+    max-height: 370px;
+    overflow-y: auto;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #b01333;
+    font-weight: 400;
+}
+.nav-pills .nav-link {
+    font-weight: 400;
+    color: #231F1F;
+}
+
+#nav-alumno, #nav-asignatura{
+    #matricula_filter, #datos_filter,  #curso_length, #curso_info{
+        display: none!important;
+    }
+   
+}
+
+#nav-asignatura{
+    #curso_wrapper{
+        .col-sm-5 {
+            display: none;
+        }
+        .col-sm-7{
+            width: calc(100% - 23px);
+    border-radius: 6px!important;
+    margin-left: 11px;
+    border-left: 1px solid #dfdfdf;
+    display: flex;
+    justify-content: center;
+        }
+    }
+}

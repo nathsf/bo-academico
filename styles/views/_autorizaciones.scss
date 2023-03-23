@@ -1,0 +1,15 @@
+@media (min-width: 1200px){
+    .modal-xl.autorizaciones-modal {
+        max-width: 95%;
+    }
+}
+
+.ampliacionM-content, .agregarA-content, .ampliacionM-content-vis, .agregarA-content-vis {
+    display: none;
+}
+
+.table-autorizacion {
+    .container-checkbox {
+        bottom: 5px;
+    }
+}
